@@ -10,7 +10,7 @@ d = path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 text = open(path.join(d, 'kobe.txt')).read()
 	
 # Read the mask image
-kobe_mask = np.array(Image.open(path.join(d, "nba.jpg")))
+kobe_mask = np.array(Image.open(path.join(d, "kobe.png")))
 
 stopwords = set(STOPWORDS)
 
@@ -19,4 +19,4 @@ stopwords=stopwords)
 
 
 wc.generate(text)
-wc.to_file(path.join(d, "nba.png"))
+wc.to_file(path.join(d, "kobe_wordcloud.png"))

@@ -1,6 +1,6 @@
 # CSX_Spring 2019
 
-###**Intro**
+### **Intro**
 
 Hi, I'm Chen Chien Cheng
 
@@ -8,7 +8,7 @@ Here is some course information for CSX spring 2019
 
 
 
-###**Study Schedule**
+### **Study Schedule**
 
 - **Week 1**
   - Read TA' s project
